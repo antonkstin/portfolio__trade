@@ -1,0 +1,20 @@
+.choose__circle-logo {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .choose__circle-logo {
+    width: 33px;
+    margin-right: 20px;
+  }
+
+  .choose__circle_attract .choose__circle-logo {
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 1001px ) and (max-width: 1250px) {
+  .choose__circle-logo {
+    width: 60px;
+  }
+}

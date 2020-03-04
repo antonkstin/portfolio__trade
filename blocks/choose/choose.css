@@ -1,0 +1,29 @@
+@import url('./choose__title/choose__title.css');
+@import url('./choose__circles/choose__circles.css');
+@import url('./choose__circle/choose__circle.css');
+@import url('./choose__circle-logo/choose__circle-logo.css');
+@import url('./choose__circle-title/choose__circle-title.css');
+@import url('./choose__circle-arrow/choose__circle-arrow.css');
+
+.choose {
+  background-image: url('./images/background.png');
+  background-color: #e8ebf4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 310px 0 208px;
+}
+
+@media screen and (max-width: 1000px) {
+  .choose {
+    background-position: center top;
+    padding: 45px 0 0;
+  }
+}
+
+@media screen and (min-width: 1001px ) and (max-width: 1500px) {
+  .choose {
+    padding-top: 200px;
+  }
+}
+

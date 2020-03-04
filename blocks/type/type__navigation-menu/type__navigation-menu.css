@@ -1,0 +1,50 @@
+.type__navigation-menu {
+  width: 343px;
+  height: 116px;
+  font-family: 'PF Din Text Pro';
+  font-size: 28px;
+  font-weight: 500;
+  color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: 0.4s;
+}
+
+.type__navigation-menu_active {
+  color: #00b0a2;
+}
+
+.type__navigation-menu_active::before {
+  content: '';
+  width: 0;
+  position: absolute;
+  bottom: -2.5px;
+  left: 171.5px;
+  height: 4px;
+  background-color: #00b0a2;
+  animation: appear 0.4s forwards;
+}
+
+@keyframes appear {
+  100%{width: 343px; left: 0}
+}
+
+
+@media screen and (min-width: 1001px ) and (max-width: 1250px) {
+  .type__navigation-menu{
+    font-size: 24px;
+    width: 300px;
+  }
+
+  .type__navigation-menu_active::before {
+    content: '';
+    left: 150px;
+    animation: appear1 0.4s forwards;
+  }
+
+  @keyframes appear1 {
+    100%{width: 300px; left: 0}
+  }
+}

@@ -1,0 +1,22 @@
+@import url('../blocks/choose/choose.css');
+@import url('../blocks/type/type.css');
+
+@font-face {
+  font-family: 'PF Din Text Pro';
+  src: url(../fonts/PFDinTextPro-Light.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Din Text Pro';
+  src: url(../fonts/PFDinTextUniversal.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+
+.content {
+  margin: auto;
+  max-width: 1914px;
+  min-width: 376px;
+}

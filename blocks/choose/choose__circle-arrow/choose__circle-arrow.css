@@ -1,0 +1,17 @@
+.choose__circle-arrow {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .choose__circle-arrow {
+    display: inline;
+    position: absolute;
+    right: 20px;
+    pointer-events: none;
+    transition: transform 0.5s;
+  }
+
+  .choose__circle-arrow_active {
+    transform: rotateX(180deg);
+  }
+}

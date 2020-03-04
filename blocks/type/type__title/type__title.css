@@ -1,0 +1,13 @@
+.type__title {
+  color: #171717;
+  font-family: "PF Din Text Pro";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 47px;
+}
+
+@media screen and (max-width: 1000px) {
+  .type__title {
+    margin-top: 31px;
+  }
+}

@@ -1,0 +1,39 @@
+.choose__circle-title {
+  margin-top: 40px;
+  font-family: 'PF Din Text Pro';
+  font-weight: 500;
+  font-size: 28px;
+  color: #242424;
+  pointer-events: none;
+}
+.choose__circle:last-of-type .choose__circle-title {
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .choose__circle-title {
+    font-size: 19px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1001px ) and (max-width: 1250px) {
+  .choose__circle-title {
+    margin-top: 25px;
+    font-size: 19px;
+  }
+  .choose__circle:last-of-type .choose__circle-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1251px ) and (max-width: 1500px) {
+  .choose__circle-title {
+    margin-top: 30px;
+    font-size: 24px;
+  }
+  .choose__circle:last-of-type .choose__circle-title {
+    margin-bottom: 18px;
+  }
+}

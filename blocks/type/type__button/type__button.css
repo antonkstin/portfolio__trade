@@ -1,0 +1,18 @@
+.type__button {
+  margin-top: 45px;
+  padding: 13px 32px;
+  border: none;
+  color: #feffff;
+  font-family: "PF Din Text Pro";
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #009e82;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .type__button {
+    margin-top: 12px;
+  }
+}

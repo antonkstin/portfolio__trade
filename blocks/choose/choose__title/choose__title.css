@@ -1,0 +1,14 @@
+.choose__title {
+  font-family: 'PF Din Text Pro';
+  font-size: 48px;
+  color: #171717;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .choose__title {
+    margin: 0 20px 24px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}

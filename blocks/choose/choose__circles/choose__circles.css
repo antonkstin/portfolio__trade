@@ -1,0 +1,14 @@
+.choose__circles {
+  margin: 78px 0 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1000px) {
+  .choose__circles {
+    margin: 0 0 250px;
+    flex-direction: column;
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+@import url('./type__navigation/type__navigation.css');
+@import url('./type__navigation-menu/type__navigation-menu.css');
+@import url('./type__content/type__content.css');
+@import url('./type__text/type__text.css');
+@import url('./type__title/type__title.css');
+@import url('./type__list/type__list\ .css');
+@import url('./type__list-element/type__list-element.css');
+@import url('./type__list-number/type__list-number.css');
+@import url('./type__button/type__button.css');
+
+.type {
+  max-width: 1914px;
+  height: 993px;
+  background-image: url('./images/background.png');
+  background-position: bottom left -30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .type {
+    display: none;
+  }
+}
